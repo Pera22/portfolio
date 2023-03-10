@@ -1,0 +1,42 @@
+.headerWrapper{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8rem;
+    align-items: center;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.title{
+    font-size: 500;
+}
+
+.date{
+    font-size: 0.8rem;
+    font-weight: 400;
+    padding: 50px;
+}
+
+.ul{
+    padding: 0 20px;
+    font-size: 0.9rem;
+}
+
+@media (min-width: 640px){
+    .headerWrapper{
+        flex-direction: row;
+        justify-self: space-between;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+    .title{
+        font-size: 1.4rem;
+    }
+    
+    .date{
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    .ul{
+        font-size: 0.95rem;
+    }
+}

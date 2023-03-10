@@ -1,0 +1,44 @@
+.wraper{
+    width: 850px;
+    max-width: 100%;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.headerText{
+    width: 100%; /* occupies the 100% of the page */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 40px 20px;
+}
+
+
+.line{
+    height: 2px;
+    background-color: #131e3a;
+    flex: 1;
+}
+
+.text{
+    font-weight: 800;
+    font-size: 2rem;
+    -webkit-text-stroke: 1.5px black;
+    -webkit-text-fill-color: transparent;
+}
+
+.sectionContent{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 20px;
+    gap:30px;
+}
+@media(min-width: 640px){
+    .sectionContent{
+        padding: 0px 50px;
+
+    }
+
+}
